@@ -1,0 +1,248 @@
+*{    
+    margin: 0;
+    padding: 0;
+     font-family: "Noto Serif", serif;
+}
+.hero__section{
+    background-image: linear-gradient(to top, rgba(19, 17, 17, 0), rgb(19, 17, 17, 1)),url(c1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 550px;
+    width: 100%;
+    align-items: center;
+    /* display: flex; */
+}
+
+ .hero__section .nav-link{
+    color: #ffffff;
+}
+ .nav-logo {
+    margin-left: 500px;
+    gap: 10rem;
+ }
+.nav-logo img{
+    margin-left: 150px;
+    margin-bottom: 2rem;
+}
+.justify-content-end .nav-logo{
+    align-items: center;
+    display: flex;
+    justify-content: ;
+}
+.nav-logo h1{
+    color: #ffffff;
+}
+ .nav-logo img{
+    margin-top: 150px;
+    /* height: 150px; */
+}
+
+
+.card-group{
+      margin-top: 100px;
+      width: 90%;
+      gap: 3rem;
+      
+}
+
+.card__groups{
+    justify-content: center;
+      display: flex;
+      align-items: center;
+      /* gap: 3rem; */
+      background-color: rgb(255, 250, 181);
+
+}
+
+.card-img-top{
+    display: flex;
+    height: 250px;
+    width: 100%;
+}
+
+.fascination{
+    margin-top: 5rem;
+    background-color: rgb(255, 233, 245);
+    margin-bottom: 5rem;
+}
+    /* .carousel-inner{
+        /* padding: 100px; */
+        /* border:12px solid #0000; */
+        /* border-radius: 16px;
+    
+    }  */
+    #carouselExampleDark{
+        margin: 3px 150px 3px 150px;
+        
+    }
+    .carousel-item{
+        height: 550px;
+        left: 10px;
+    }
+
+    .carousel-caption h1,
+    .carousel-caption h5 {
+        color: white;
+    }
+
+    .bookings{
+       
+        background-color: #deffa1;
+    }
+ .bookin{
+      margin: 5rem 5rem 5rem 5rem;
+ }
+    .booking_card__group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer{
+        width: 100%;
+        background-color: rgb(134, 96, 73);
+    }
+    .footer_section1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    
+    .footer_section1 img{
+        width: 130px;
+    }
+    
+    .section1__buttonContainer{
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .section1__buttonContainer button{
+        padding: 5px;
+        width: 100px;
+        border: 1px solid rgb(247, 239, 239);
+        border-radius: 5px;
+        background-color:transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        cursor: pointer;
+    }
+    
+    .navigation_container{
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  we can also write display:flex but grid hase more advantage then flex*/
+        grid-template-columns: repeat(5,1fr);
+        width: 80%;
+        margin: auto;
+        gap: 1rem;
+        padding: 3rem 0;
+        color: #e0e0e0;
+    
+    }
+    
+    .link__container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 5px;
+        
+    }
+    
+    .link__container h5{
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 5px;
+        letter-spacing: 0.8px;
+        color: #ffffff;
+    }
+    
+    /* .link__container img{
+        width: 60%;
+    } */
+    
+    .footer__link{
+        text-decoration: none;
+        color: rgb(88, 85, 85);
+        font-size: 16px;
+        font-weight: 400;
+        
+    }
+    
+    .footer__link:hover{
+        color: rgb(0, 0, 0);
+    }
+    
+    .link__container a{
+        color: #e0e0e0;
+    }
+    .section__links_container button{
+        background-color: rgb(0, 0, 0);
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        cursor: pointer;
+        
+    }
+    .section__links_container  button i{
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        background: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    }
+    
+    .section__links_container i:hover{
+        transform: scale(2.05);
+        transition: transform 3s ;
+    }
+    .footer__section_logos{
+        width: 100%;
+    }
+    
+    .disclamer{
+        width: 95%;
+        color: rgb(255, 255, 255);
+        margin: auto;
+        border-top:1px solid gray ;
+        padding-top:1.5rem ;
+    }
+
+    .card{
+        border-radius: 10px;
+        /* background-color: rgb(28, 206, 206); */
+        overflow: hidden;
+        border: 1px solid #e0e0e0;
+        transition: all 1s ease-in-out;
+    }
+    .col{
+        transition: all 1s ease-in-out;
+    }
+    .card__groups .card{
+        border-radius: 10px;
+        /* background-color: rgb(28, 206, 206); */
+        overflow: hidden;
+        border: 1px solid #e0e0e0;
+        /* transition: all 1s ease; */
+    }
+
+    /* Add transition effect to all cards */
+.card {
+  transition: transform 0.3s ease;
+}
+
+/* Add hover effect to scale the card slightly */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Additional styles for other elements if needed */
